@@ -26,7 +26,7 @@ for i in range(1, szam+1): # Számot is beleértjük
 print(f"Páros számok összege: {paros_szamok_osszege}")
 print(f"Páratlan számok összege: {paratlan_szamok_osszege}")
 
-# MAGYARÁZAT
+# HIBA MAGYARÁZATA
 # EREDETI CIKLUS    for i in range(1, szam):
 # A range(1, szam) egy olyan intervallumot hoz létre, amely az 1-től indul,
 # de nem tartalmazza a szam értékét, tehát a ciklus az 1-től a szam - 1-ig terjed.
