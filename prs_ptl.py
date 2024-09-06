@@ -17,7 +17,7 @@ szam = int(input("Adjon meg egy pozitív egész számot: "))
 paros_szamok_osszege = 0
 paratlan_szamok_osszege = 0
 
-for i in range(1, szam+1): # Számot is beleértjük
+for i in range(1, szam+1):  # Számot is beleértjük
     if i % 2 == 0:
         paros_szamok_osszege += i
     else:
